@@ -12,7 +12,7 @@ function App() {
   };
   return (
     <div id="main">
-      <p>{paragraph}</p>
+      <p id="para">{paragraph}</p>
       <button id="click" onClick={handleClick}>
         btn
       </button>
