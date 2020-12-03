@@ -5,7 +5,9 @@ function App() {
   const handleClick = () => {};
   return (
     <div id="main">
-      <button id="click" onClick={handleClick}></button>
+      <button id="click" onClick={handleClick}>
+        btn
+      </button>
     </div>
   );
 }
