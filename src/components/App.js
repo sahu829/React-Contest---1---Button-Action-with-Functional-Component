@@ -13,7 +13,7 @@ function App() {
       <button id="click" onClick={handleClick}>
         btn
       </button>
-      <p id="para">{paraGraph}</p>
+      {paraGraph}
     </div>
   );
 }
