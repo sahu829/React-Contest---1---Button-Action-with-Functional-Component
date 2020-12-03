@@ -10,10 +10,10 @@ function App() {
   };
   return (
     <div id="main">
+      <p id="para">{paraGraph}</p>
       <button id="click" onClick={handleClick}>
         btn
       </button>
-      {paraGraph}
     </div>
   );
 }
