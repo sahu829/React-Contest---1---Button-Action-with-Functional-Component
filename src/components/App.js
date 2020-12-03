@@ -10,7 +10,7 @@ function App() {
   };
   return (
     <div id="main">
-      <p id="para">{paraGraph}</p>
+      <paragraph id="para">{paraGraph}</paragraph>
       <button id="click" onClick={handleClick}>
         btn
       </button>
